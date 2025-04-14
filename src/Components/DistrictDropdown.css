@@ -1,0 +1,39 @@
+.district-fieldset {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+  
+  .district-legend {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #444;
+    padding: 0 6px;
+  }
+  
+  .district-select {
+    width: 100%;
+    padding: 0.75rem 0.9rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    color: #333;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-top: 0.6rem;
+  }
+  
+  .district-select:hover {
+    border-color: #aaa;
+  }
+  
+  .district-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+  }
+  

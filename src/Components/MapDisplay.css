@@ -1,0 +1,27 @@
+/* MapDisplay.css */
+#map-container {
+    width: 95%;
+    height: 650px; /* Increased height */
+    margin: 2rem auto;
+    border-radius: 18px;
+    border: 1.8px solid #e3e3e3;
+    background-color: #fefefe;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #map-container:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    border-color: #ccc;
+  }
+  
+  .leaflet-container {
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    z-index: 0;
+  }
+  

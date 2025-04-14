@@ -1,0 +1,116 @@
+.village-dropdown-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.village-fieldset {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.village-legend {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+  padding: 0 6px;
+}
+
+.village-select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-top: 0.6rem;
+}
+
+.village-select:hover {
+  border-color: #aaa;
+}
+
+.village-select:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+.contact-info {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.contact-info h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li span {
+  margin-right: 12px;
+  font-size: 1.5rem; /* Slightly larger for better visibility */
+  color: #007bff;  /* Blue color for icons */
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #0056b3;
+  transform: translateX(5px);
+}
+
+.contact-info li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .contact-info {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .contact-info h4 {
+    font-size: 1.3rem;
+  }
+
+  .contact-info li {
+    font-size: 1rem;
+  }
+}
